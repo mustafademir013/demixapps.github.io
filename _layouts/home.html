@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="clearfix">
+
+    <div class="leftSide">
+        <div class="logoWrapper">
+            <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+        </div>
+        <div class="hero">
+            {{ content }}
+            <div class="buttonWrapper">
+                <div>
+                    {%- assign social = site.links -%}
+                    {%- if social.app_store -%}
+                    <a href="{{ social.app_store }}" class="appStore"><img src="/assets/img/app-store-badge.svg"></a>
+                    {%- endif -%}
+                    {%- if social.google_play -%}
+                    <a href="{{ social.google_play }}" class="googlePlay"><img
+                            src="/assets/img/google-play-badge.svg"></a>
+                    {%- endif -%}
+                </div>
+            </div>
+        </div>
+        <div class="qrBlock">
+            <div id="qrcode" class="qr"></div>
+            <div class="text">
+                <strong>View on your <br>Mobile Device</strong>
+                Scan the QR code to <br>view on your phone
+            </div>
+        </div>
+    </div>
+
+    <div class="rightSide">
+        <div class="phoneBlock">
+            <div class="include">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'slider' %}
+                        {% if image.path contains '.png' or image.path contains '.jpg' %}
+                        <img src="{{ site.baseurl }}{{ image.path }}" alt="" />
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $('.include').slick({
+                        arrows: false, autoplay: true,
+                        adaptiveHeight: true
+                    });
+                    new QRCode("qrcode", window.location.href);
+                });
+            </script>
+        </div>
+    </div>
+
+</div>

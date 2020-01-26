@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+    <div class="loading">
+        <div>
+            <div class="spinner-border" role="status"></div>
+        </div>
+    </div>
+    <div class="container">
+        {{ content }}
+
+        <div class="navigation-menu">
+            {% for page in site.pages %}
+            {%- if page.url != '/' and page.title -%}
+            <a href="{{ page.url }}">{{ page.title }}</a>
+            {%- endif -%}
+            {% endfor %}
+            {%- if site.author -%}
+            | Developed by <a href="mailto:{{ site.author.email | default:"#" }}">{{ site.author.name }}</a>
+            {%- endif -%}
+        </div>
+    </div>
+
+    {%- include footer.html -%}
+</body>
+
+</html>
