@@ -6,11 +6,3 @@ layout: home
 
 DemixApps makes mobile games and mobile apps.
 
-
----
-layout: privacy-policy
----
-
-# Privacy Policy 
-
-Test 
