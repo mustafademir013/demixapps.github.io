@@ -1,16 +1,14 @@
-title: MobiKit
+title: DemixApps
 author:
-  name: Name Lastname
-  email: hello@example.com
+  name: Demix Apps
+  email: mustafademir013@gmail.com
 description: > # this means to ignore newlines
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results).
+  DemixApps makes mobile games and apps.
 type: free # Choose one from "open source", "free", freemium, ad supported, commercial
 google_analytics: UA-NNNNNNNN-N
 links:
-  app_store: https://apps.apple.com/
-  google_play: https://play.google.com/
+  app_store: https://apps.apple.com/tr/developer/mustafa-demir/id1204716531
+  google_play: https://play.google.com/store/apps/developer?id=DmX
 theme: mobikit
 plugins:
  - jekyll-seo-tag
