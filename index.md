@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Welcome to Demix Apps
+# Welcome
 
 DemixApps makes mobile games and mobile apps.
 
