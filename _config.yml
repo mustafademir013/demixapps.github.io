@@ -9,6 +9,6 @@ google_analytics: UA-NNNNNNNN-N
 links:
   app_store: https://apps.apple.com/tr/developer/mustafa-demir/id1204716531
   google_play: https://play.google.com/store/apps/developer?id=DmX
-theme: mobikit
+theme: demixapps
 plugins:
  - jekyll-seo-tag
