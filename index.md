@@ -2,6 +2,6 @@
 layout: home
 ---
 
-# Welcome to mobikit
+# Welcome to DemixApps
 
-This simplest way to launch Mobile App landing page just in few simple steps.
+DemixApps makes mobile games and mobile apps.
