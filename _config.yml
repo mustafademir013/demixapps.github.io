@@ -4,7 +4,7 @@ author:
   email: mustafademir013@gmail.com
 description: > # this means to ignore newlines
   DemixApps makes mobile games and apps.
-type: free # Choose one from "open source", "free", freemium, ad supported, commercial
+type: freemium # Choose one from "open source", "free", freemium, ad supported, commercial
 google_analytics: UA-NNNNNNNN-N
 links:
   app_store: https://apps.apple.com/tr/developer/mustafa-demir/id1204716531
