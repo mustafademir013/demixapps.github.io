@@ -4,5 +4,5 @@ layout: home
 
 # Welcome
 
-DemixApps makes mobile games and mobile apps.
+DemixApps makes mobile games and apps.
 
