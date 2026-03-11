@@ -8,6 +8,9 @@ Visit us at [demixstudio.com](https://demixstudio.com)
 
 - **Pink Piano** - Colorful & fun piano experience
 - **Simple Arranger Keyboard** - Complete music workstation
+- **Simple Org** - Stage-ready arranger and organ
+- **Simple Handpan** - Atmospheric handpan simulator
+- **Simple Violin** - Expressive violin simulator
 - **Best Piano** - 88-key professional piano
 - **Real Piano** - Realistic piano simulation
 
